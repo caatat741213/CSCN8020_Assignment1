@@ -1,8 +1,8 @@
 ## **Reinforcement Learning Programming-Assignment 1**
 
-**Student name:** Chao-Chung, Liu
-**Student ID:** 9067679
-**Link:** https://github.com/caatat741213/CSCN8020_Assignment1.git
+#### **Student name:** Chao-Chung, Liu
+#### **Student ID:** 9067679
+#### **Link:** https://github.com/caatat741213/CSCN8020_Assignment1.git
 
 ## Short summary of the assignment
 
