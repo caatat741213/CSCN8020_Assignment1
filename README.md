@@ -16,7 +16,7 @@ CSCN8020_Assignment1/
 ├── requirements.txt    #dependencies needed to run the notebook.    
 ├── README.md   
 ├── CSCN8020_Assignment1.pdf            
-├── CSCN8020_Assignment1.ipynb 
+├── CSCN8020_Assignment1.ipynb  # Single notebook — all four problems
 ├── src/     
 │   ├── __init__.py
 │   ├── environments.py  
@@ -66,3 +66,6 @@ jupyter notebook CSCN8020_Assignment1.ipynb
 ```
 
 5. Run the notebook from top to bottom.
+
+## References
+* Sutton, R. S., & Barto, A. G. (2018). Reinforcement Learning: An Introduction (2nd ed.). MIT Press.
