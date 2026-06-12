@@ -9,7 +9,7 @@ The assignment focuses on applying Dynamic Programming and Monte Carlo methods t
 
 
 ## Description of the repository structure
-
+```
 CSCN8020_Assignment1/
 ├── .gitignore          #excludes virtual environments, cache files, checkpoints, and generated runtime files.    
 ├── requirements.txt    #dependencies needed to run the notebook.    
@@ -24,6 +24,7 @@ CSCN8020_Assignment1/
 │   └── utils.py       
 ├── images/  
 └── logs/              
+```
 
 ## Any assumptions or known limitations
 1. A discount factor (γ) of 0.9 is assumed for the Gridworld calculations
