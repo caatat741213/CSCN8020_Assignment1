@@ -2,7 +2,8 @@
 
 **Student name:** Chao-Chung, Liu
 **Student ID:** 9067679
-**Link:**https://github.com/caatat741213/CSCN8020_Assignment1.git
+**Link:** https://github.com/caatat741213/CSCN8020_Assignment1.git
+
 ## Short summary of the assignment
 
 The assignment focuses on applying Dynamic Programming and Monte Carlo methods to solve Markov Decision Processes (MDPs). It includes manual mathematical derivations for a 2x2 Gridworld, implementation of Value Iteration (standard and in-place) for a 5x5 Gridworld, and Off-policy Monte Carlo with Importance Sampling.
