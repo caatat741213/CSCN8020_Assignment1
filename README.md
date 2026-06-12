@@ -12,24 +12,25 @@ The assignment focuses on applying Dynamic Programming and Monte Carlo methods t
 ## Description of the repository structure
 ```
 CSCN8020_Assignment1/
-├── .gitignore          #excludes virtual environments, cache files, checkpoints, and generated runtime files.    
-├── requirements.txt    #dependencies needed to run the notebook.    
-├── README.md   
-├── CSCN8020_Assignment1.pdf            
-├── CSCN8020_Assignment1.ipynb  # Single notebook — all four problems
-├── src/     
-│   ├── __init__.py
-│   ├── environments.py  
-│   ├── agents.py      
-│   ├── policies.py     
-│   └── utils.py       
-├── images/  
-└── logs/              
+├── .gitignore          # excludes virtual environments, cache files, checkpoints, and generated runtime files.
+├── README.md
+├── requirements.txt    # dependencies needed to run the notebook
+├── CSCN8020_Assignment1.pdf
+├── CSCN8020_Assignment1.ipynb  # single notebook containing all four problems
+├── images/             # figures and screenshots for the report
+├── logs/               # saved experiment or evaluation logs
+└── src/
+    ├── __init__.py
+    ├── agents.py
+    ├── environments.py
+    ├── policies.py
+    └── utils.py
 ```
 
 ## Any assumptions or known limitations
 1. A discount factor (γ) of 0.9 is assumed for the Gridworld calculations
-
+2. The transitions for the pick-and-place robotic arm in Problem 1 are assumed to be deterministic for simplicity.
+3. The Off-Policy Monte Carlo algorithm uses a completely random behavior policy (25% probability for each action). A known limitation of this approach is high variance, which requires a significantly larger number of episodes to properly converge compared to Value Iteration.
 
 
 ## Instructions to run the notebook
@@ -68,4 +69,10 @@ jupyter notebook CSCN8020_Assignment1.ipynb
 5. Run the notebook from top to bottom.
 
 ## References
-* Sutton, R. S., & Barto, A. G. (2018). Reinforcement Learning: An Introduction (2nd ed.). MIT Press.
+* **Textbook:** Sutton, R. S., & Barto, A. G. (2018). *Reinforcement Learning: An Introduction* (2nd ed.). MIT Press.
+* **Development Library:** [Gymnasium Documentation](https://gymnasium.farama.org/) - Used as the standard API for environment creation.
+* **Course Code References :**
+  * MDP Basics: [lec2_MDP](https://github.com/CSCN8020/playground/tree/main/lec2_MDP)
+  * Dynamic Programming: [lec3_DP](https://github.com/CSCN8020/playground/tree/main/lec3_DP)
+  * Monte Carlo: [lec4_MC](https://github.com/CSCN8020/playground/tree/main/lec4_MC)
+  * GymMaze Example: [HelloGymMaze](https://github.com/ProfEspinosaAIML/HelloGymMaze.git)
